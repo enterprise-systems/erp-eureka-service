@@ -13,8 +13,8 @@ management:
       enabled: true
 
 info:
-  application: eureka-server
-  label: Eureka Server
+  application: erp-eureka-service
+  label: ERP Eureka Service
   version: 1.0.0
   state: Development
 
@@ -24,13 +24,13 @@ spring:
       name: richard
       password: richard
   application:
-    name: eureka-server
+    name: erp-eureka-service
   cloud:
     loadbalancer:
       cache:
         ttl: 35
   cache:
-    cache-names: eureka-server
+    cache-names: erp-eureka-service
   devtools:
     restart:
       enabled: true
