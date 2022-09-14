@@ -1,0 +1,39 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Default ERP Eureka",
+      "request": "launch",
+      "mainClass": "com.enterprisesystems.erpeurekaservice.ErpEurekaServiceApplication",
+      "projectName": "erp-eureka-service"
+    },
+    {
+      "type": "java",
+      "name": "Localhost ERP Eureka",
+      "request": "launch",
+      "mainClass": "com.enterprisesystems.erpeurekaservice.ErpEurekaServiceApplication",
+      "projectName": "erp-eureka-service",
+      "args": "--spring.profiles.active=localhost"
+    },
+    {
+      "type": "java",
+      "name": "Development ERP Eureka",
+      "request": "launch",
+      "mainClass": "com.enterprisesystems.erpeurekaservice.ErpEurekaServiceApplication",
+      "projectName": "erp-eureka-service",
+      "args": "--spring.profiles.active=development"
+    },
+    {
+      "type": "java",
+      "name": "Production ERP Eureka",
+      "request": "launch",
+      "mainClass": "com.enterprisesystems.erpeurekaservice.ErpEurekaServiceApplication",
+      "projectName": "erp-eureka-service",
+      "args": "--spring.profiles.active=production"
+    }
+  ]
+}
