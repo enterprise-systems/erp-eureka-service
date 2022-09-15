@@ -28,9 +28,9 @@ docker build -t erp-eureka-service:latest -f Dockerfile .
 
 docker run -it --restart always --name erp-eureka-service-localhost -p 1000:1000 -e SPRING_PROFILES_ACTIVE=localhost erp-eureka-service:latest
 
-docker run -it --restart always --name erp-eureka-service-development -p 1001:1000 -e SPRING_PROFILES_ACTIVE=development erp-eureka-service:latest
+docker run -it --restart always --name erp-eureka-service-development -p 1000:1000 -e SPRING_PROFILES_ACTIVE=development erp-eureka-service:latest
 
-docker run -it --restart always --name erp-eureka-service-production -p 1002:1000 -e SPRING_PROFILES_ACTIVE=production erp-eureka-service:latest
+docker run -it --restart always --name erp-eureka-service-production -p 1000:1000 -e SPRING_PROFILES_ACTIVE=production erp-eureka-service:latest
 
 #### SPRING_PROFILES_ACTIVE (env)
 
