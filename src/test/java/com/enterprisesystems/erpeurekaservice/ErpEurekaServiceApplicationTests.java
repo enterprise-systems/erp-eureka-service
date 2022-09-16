@@ -8,6 +8,7 @@ class ErpEurekaServiceApplicationTests {
 
 	@Test
 	void contextLoads() {
+		assertTrue(true);
 	}
 
 }
