@@ -77,7 +77,7 @@ eureka:
   datacenter: Development
   environment: Development
   instance:
-    hostname: richardvu.myddns.me
+    hostname: host.docker.internal
   client:
     registerWithEureka: false
     fetchRegistry: false
